@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Naheel Muhammad Siddiqui</h1>
 <h3 align="center">Very new to CS, yet extremely enthusiastic</h3>
-<img align="right" alt="coding" width="400" src="https://unsplash.com/photos/close-up-of-a-woman-hacker-hands-at-keyboard-computer-in-the-dark-room-at-night-cyberwar-concept-high-angle-view-YkibINt3MXo">
 
 - 🔭 I’m currently working on **nothing really**
 
