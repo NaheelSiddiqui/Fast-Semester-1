@@ -1,19 +1,19 @@
 <h1 align="center">Hi 👋, I'm Naheel Muhammad Siddiqui</h1>
 <h3 align="center">Very new to CS, yet extremely enthusiastic</h3>
 
-- 🔭 I’m currently working on **nothing really**
+- 🔭 I’m currently working on **my laptop**
 
-- 🌱 I’m currently learning **whatever FAST wants me to**
+- 🌱 I’m currently learning **CS at FAST**
 
-- 👯 I’m looking to collaborate on **assignments and quizzes**
+- 👯 I’m looking to collaborate on **assignments**
 
-- 🤝 I’m looking for help with **whatever new thing I decide to do**
+- 🤝 I’m looking for help with **programming languages**
 
-- 💬 Ask me about **nothing, I'm Batman**
+- 💬 Ask me about **anything**
 
-- 📫 How to reach me **plz don't**
+- 📫 How to reach me **whatsapp**
 
-- ⚡ Fun fact **I am currently on +1000000 aura points**
+- ⚡ Fun fact **I know how to drive**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
