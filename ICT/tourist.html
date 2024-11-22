@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Tourist Sites in Pakistan</title>
+  <link rel="stylesheet" href="tourist2.css">
+</head>
+
+<body>
+  <br>
+  <br>
+  <header>
+    <h1>The 10 Best Tourist Sites in Pakistan</h1>
+  </header>
+
+  <div class="container">
+    
+    <ul class="tourist-sites">
+      
+      <li>
+        <div class="locations" id="hunzadiv"><b>1. Hunza Valley</b></div>
+        <div><button onclick="toggleDetails('hunza'); hideDiv('hunzadiv');">Details</button></div>
+        <div class="details" id="hunza">
+          <h3>Hunza Valley</h3>
+          <p>Hunza Valley, located in the Gilgit-Baltistan region, is a breathtakingly beautiful destination surrounded
+            by towering peaks like Rakaposhi and Ultar Sar. The valley is famous for its lush greenery, clear rivers,
+            and traditional villages. Popular spots include Karimabad, Baltit Fort, and Eagle's Nest, from where you can
+            enjoy panoramic views of the snow-capped peaks.</p>
+          <img src="https://tripjive.com/wp-content/uploads/2024/09/Hunza-Valley-activities-1024x585.jpg"
+            alt="Hunza Valley">
+        </div>
+      </li>
+
+      <!-- Swat Valley -->
+      <li>
+        <span class="locations" id="swatdiv"><b>2. Swat Valley</b></span>
+        <button onclick="toggleDetails('swat'); hideDiv('swatdiv');">Details</button>
+        <div class="details" id="swat">
+          <h3>Swat Valley</h3>
+          <p>Known as the 'Switzerland of Pakistan', Swat Valley in Khyber Pakhtunkhwa offers pristine natural beauty
+            with its snow-capped mountains, lush forests, and clear lakes. Popular spots include Malam Jabba, a ski
+            resort, Fizagat Park, and the enchanting Mingora city. The valley is perfect for hiking, fishing, and
+            exploring Buddhist archaeological sites.</p>
+          <img
+            src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2024/01/25151852/Untitled-design-2024-01-25T124838.567-1600x900.jpg"
+            alt="Swat Valley">
+        </div>
+      </li>
+
+      <!-- Murree -->
+      <li>
+        <span class="locations" id="murreediv"><b>3. Murree</b></span>
+        <button onclick="toggleDetails('murree'); hideDiv('murrediv');">Details</button>
+        <div class="details" id="murree">
+          <h3>Murree</h3>
+          <p>Located in the Punjab province, Murree is a popular hill station known for its cool climate, scenic views,
+            and pine forests. It’s a favorite summer retreat for locals and tourists alike. Major attractions include
+            Mall Road, Patriata (New Murree), and Pindi Point, where visitors can enjoy cable car rides.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Murree_Summer.jpg" alt="Murree">
+        </div>
+      </li>
+
+      <!-- Skardu -->
+      <li>
+        <span class="locations" id="skardudiv"><b>4. Skardu</b></span>
+        <button onclick="toggleDetails('skardu'); hideDiv('skardudiv');">Details</button>
+        <div class="details" id="skardu">
+          <h3>Skardu</h3>
+          <p>Skardu, located in Gilgit-Baltistan, is known for its majestic landscapes, lakes like Shangrila, and
+            mountain treks to K2. The region is a popular destination for adventure tourists and nature lovers. The
+            serene Shangrila Resort, Deosai National Park (the 'Land of Giants'), and Satpara Lake are some of the
+            must-visit locations in Skardu.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Skardu_Valley.jpg" alt="Skardu Valley">
+        </div>
+      </li>
+
+      <!-- Lahore -->
+      <li>
+        <span class="locations"><b>5. Lahore</b></span>
+        <button onclick="toggleDetails('lahore')" class="btn">Details</button>
+        <div class="details" id="lahore">
+          <h3>Lahore</h3>
+          <p>Lahore, the cultural capital of Pakistan, offers historic sites like the Lahore Fort, Badshahi Mosque, and
+            the Shalimar Gardens. The city is famous for its vibrant food culture, bustling markets, and historical
+            landmarks. Lahore's Walled City is a UNESCO World Heritage site, showcasing Mughal-era architecture and
+            local culture.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Badshahi_Mosque_and_Lahore_Fort.jpg"
+            alt="Lahore Fort and Badshahi Mosque">
+        </div>
+      </li>
+
+      <!-- Karakoram Highway -->
+      <li>
+        <span class="locations"><b>6. Karakoram Highway</b></span>
+        <button onclick="toggleDetails('karakoram')" class="btn">Details</button>
+        <div class="details" id="karakoram">
+          <h3>Karakoram Highway</h3>
+          <p>The Karakoram Highway, often called the 'Eighth Wonder of the World', connects Pakistan and China, offering
+            scenic views of the mountains and valleys along the route. This highway passes through some of the highest
+            peaks in the world, including K2 and Nanga Parbat, making it a must-see for road travelers and adventure
+            enthusiasts.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Karakoram_Highway.jpg" alt="Karakoram Highway">
+        </div>
+      </li>
+
+      <!-- Mohenjo-Daro -->
+      <li>
+        <span class="locations"><b>7. Mohenjo-Daro</b></span>
+        <button onclick="toggleDetails('mohenjo')" >Details</button>
+        <div class="details" id="mohenjo">
+          <h3>Mohenjo-Daro</h3>
+          <p>One of the most famous archaeological sites of the Indus Valley Civilization, Mohenjo-Daro, located in
+            Sindh, showcases ancient ruins that date back to around 2500 BCE. It is a UNESCO World Heritage site and
+            provides insight into one of the earliest urban cultures in the world.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Mohenjo_Daro_ruins.jpg"
+            alt="Mohenjo-Daro Ruins">
+        </div>
+      </li>
+
+      <!-- Ranikot Fort -->
+      <li>
+        <span class="locations"><b>8. Ranikot Fort</b></span>
+        <button onclick="toggleDetails('ranikot')" class="btn">Details</button>
+        <div class="details" id="ranikot">
+          <h3>Ranikot Fort</h3>
+          <p>Known as the 'Great Wall of Sindh', Ranikot Fort is a massive structure located in the Kirthar mountain
+            range. It is considered one of the largest forts in the world, with walls extending over 26 kilometers. Its
+            mysterious history and grand scale make it a fascinating destination for history buffs.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Ranikot_Fort.jpg" alt="Ranikot Fort">
+        </div>
+      </li>
+
+      <!-- Fairy Meadows -->
+      <li>
+        <span class="locations"><b>9. Fairy Meadows</b></span>
+        <button onclick="toggleDetails('fairy')" class="btn">Details</button>
+        <div class="details" id="fairy">
+          <h3>Fairy Meadows</h3>
+          <p>Fairy Meadows is located near Nanga Parbat, the ninth-highest mountain in the world. Known for its lush
+            green meadows and stunning views of Nanga Parbat, it's a paradise for nature lovers and trekkers. The site
+            offers breathtaking landscapes, clear skies, and a peaceful atmosphere, perfect for camping and hiking.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Fairy_Meadows.jpg" alt="Fairy Meadows">
+        </div>
+      </li>
+
+      <!-- Badshahi Mosque -->
+      <li>
+        <span class="locations"><b>10. Badshahi Mosque</b></span>
+        <button onclick="toggleDetails('badshahi')" class="btn">Details</button>
+        <div class="details" id="badshahi">
+          <h3>Badshahi Mosque</h3>
+          <p>The Badshahi Mosque in Lahore is one of the largest and most magnificent mosques in the world. Built during
+            the Mughal era, it is an architectural masterpiece with intricate carvings, marble floors, and grand
+            minarets. It is a must-see for history enthusiasts and religious tourists alike.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Badshahi_Mosque%2C_Lahore.jpg"
+            alt="Badshahi Mosque">
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script src="tourist.js"></script>
+</body>
+
+</html>
